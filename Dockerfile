@@ -9,7 +9,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 LABEL maintainer="Vinay Singh" \
-      version="1.0"
+      version="1.1"
 
 VOLUME ["/app/public"]
 
